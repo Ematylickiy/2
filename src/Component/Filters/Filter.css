@@ -1,0 +1,17 @@
+.filter-input {
+    display: inline-block;
+    width: 200px;
+    font-size: 17px;
+    letter-spacing: 0.3px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.filter-input:focus {
+    border-bottom: 3px solid rgb(109, 109, 109);
+}
+
+.filters input{
+    margin-left: 30px;
+}

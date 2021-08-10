@@ -1,0 +1,46 @@
+table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 0 10px;
+    color: rgb(27, 17, 82);
+}
+.btnAdd-filters{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0 15px 0;
+}
+
+th {
+    width: 20%;
+    padding: 10px;
+    border-top: 2px solid rgb(233, 233, 233);
+    border-bottom: 2px solid rgb(233, 233, 233);
+    background-color: rgb(240, 240, 240);
+    font-size: 19px;
+}
+
+.btn-addBook {
+    display: inline-block;
+    background-color: rgb(50, 180, 50);
+    color: ghostwhite;
+    text-decoration: none;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: rgb(1, 156, 1);
+    box-shadow: 3px 3px 10px 1px rgba(121, 118, 118, 0.28);
+    transition: 0.3s all ease;
+}
+
+.btn-show-all {
+    background-color: rgb(80, 83, 255);
+}
+.btn-show-all:hover{
+    background-color: rgb(71, 73, 214);
+}
